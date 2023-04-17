@@ -36,7 +36,7 @@ export function App() {
         <img src={notes} alt="" />
          
          <div>
-           <a href="https://linksnotes.netlify.app/" target="_bland">Acessar</a>
+           <a href="https://bibliotecanotes.netlify.app/" target="_bland">Acessar</a>
          </div>
          
          <p>Tecnologias</p>
@@ -120,26 +120,6 @@ export function App() {
        </Card>
        <Card>
         
-        <h3>Great coffee</h3>
-       
-        <img src={cafe} alt="" />
-         
-         <div>
-           <a href="https://websitesjefferson.github.io/GreatCoffee/" target="_brand">Acessar</a>
-         </div>
-         
-         <p>Tecnologias</p>
-         
-         <ul>
-           <li>Html</li>
-           <li>Css</li>
-           <li>Javascript</li>
-           
-           
-         </ul>
-       </Card>
-       <Card>
-        
         <h3>Doctor care</h3>
        
         <img src={core} alt="" />
@@ -158,48 +138,10 @@ export function App() {
            
          </ul>
        </Card>
-       <Card>
-        
-        <h3>Web Project</h3>
-       
-        <img src={web} alt="" />
-         
-         <div>
-           <a href="https://websitesjefferson.github.io/Website/#barra-superior" target="_brand">Acessar</a>
-         </div>
-         
-         <p>Tecnologias</p>
-         
-         <ul>
-           <li>Html</li>
-           <li>Css</li>
-           <li>Javascript</li>
-           
-           
-         </ul>
-       </Card>
-       <Card>
-        
-        <h3>The blog</h3>
-       
-        <img src={blog} alt="" />
-         
-         <div>
-           <a href="https://websitesjefferson.github.io/The-blog/" target="_brand">Acessar</a>
-         </div>
-         
-         <p>Tecnologias</p>
-         
-         <ul>
-           <li>Html</li>
-           <li>Css</li>
-         </ul>
-       </Card>
-       
       
-        
-        
-     </ContainerCard>
+      
+       
+      </ContainerCard>
     </Container> 
   )
 }
