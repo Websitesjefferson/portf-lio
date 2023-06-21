@@ -20,6 +20,11 @@ export const Container = styled.div`
     gap: 300px;
 
     margin-top: 20px;
+
+    h1 a{
+      text-decoration: none;
+      color: #F4EDE8;
+    }
 }
  main{
     display: flex;
@@ -42,71 +47,109 @@ export const Container = styled.div`
 export const ContainerCard = styled.div`
   
   width: 100%;
+  
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   color: #F4EDE8;
   margin-top: 100px;
   gap: 50px;
+
+  .P{
+   width: 500px;
+   margin: auto;
+  }
+
+  >a{
+   border-radius: 4px;
+   padding: 15px;
+   width: 200px;
+   margin: auto;
+   font-size: 16px;
+   background-color: #FF9000;
+   text-align: center;
+   text-decoration: none;
+
+   >span{
+      font-size: 20px;
+      font-family: sans-serif;
+      color: #fff;
+   }
+  }
 `
 export const Card = styled.div`
-   width: 350px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
 h3{
     font-size: 25px;
     margin-block: 10px;
+}
+
+.div{
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   
 } 
 
+img:hover{
+   opacity: 0.5;
+   
+}
+
 img{
+    
     width: 100%;
     height: 300px;
-    border-radius: 10px 10px 0 0 ;
+    border-radius: 10px ;
     object-fit: cover;
+    transition: all 500ms;
+    
+    
+    
  }
+ 
+ 
  p{
-    text-align: end;
+    text-align: start;
     font-weight: 800;
     border-bottom: 1px solid white;
     margin-top: 10px;
+    font-size: 15px;
  }
  ul{
-    text-align: end;
+    text-align: start;
     list-style: none;
-    margin-bottom: 10px;
- }
- 
- 
- div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  >a{
-    width: 100%;
-    height: 40px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FF8000;
-    border-radius: 0 0 10px 10px;
-    
-    font-size: 20px;
-    font-weight: 800;
-    text-decoration: none;
-    color: white;
-    transition: 300ms;
-}
-
- >a:hover{
-    background-color: #FF9000;
- }
-
- @media (max-width: 370px) {
+    margin-block: 10px;
     width: 300px;
 
+    >li{
+      font-size: 14px;
+    }
+    
+ }
+ 
+  
+
+ @media (max-width: 880px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+      padding-inline: 70px;
+    }
+
+    
+   
+
 }
 
  
- }
+ 
 
 `
